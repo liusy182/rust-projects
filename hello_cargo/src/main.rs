@@ -4,6 +4,13 @@ fn main() {
     mutate();
     constant();
     shadow();
+    for_loop();
+}
+
+fn for_loop() {
+    for number in (1..5).into_iter() {
+        println!("{number}");
+    }
 }
 
 fn constant() {
